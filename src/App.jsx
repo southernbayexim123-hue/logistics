@@ -46,7 +46,7 @@ function App() {
 
         {/* Footer */}
         <footer>
-          <div className="container">
+          <div className="footer">
             <p>&copy; {new Date().getFullYear()} Southern Bay Enterprises. All Rights Reserved.</p>
           </div>
         </footer>

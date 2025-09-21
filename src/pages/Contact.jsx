@@ -10,9 +10,9 @@ function Contact() {
           <div className="contact-details">
             <div className="contact-info">
               <h3>Our Details</h3>
-              <p><strong>Address:</strong> 123 Export Avenue, Business District, Chennai, India</p>
-              <p><strong>Phone:</strong> +91 98765 43210</p>
-              <p><strong>Email:</strong> info@southernbay.com</p>
+              <p><strong>Address:</strong> 1/231-9, Medona street ,Veerapandiyanpattnam, Thiruchendur,Tuticorin</p>
+              <p><strong>Phone:</strong> +919345523683</p>
+              <p><strong>Email:</strong> southernbayexim123@gmail.com</p>
               <p><strong>Business Hours:</strong> Monday to Friday, 9:00 AM - 6:00 PM IST</p>
             </div>
             <div className="contact-form">

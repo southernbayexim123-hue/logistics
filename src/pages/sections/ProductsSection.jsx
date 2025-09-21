@@ -1,13 +1,14 @@
 import InfiniteMenu from '../../components/InfiniteMenu'
 import coir from '../../assets/coir.jpg'
-import food from '../../assets/food.jpg'
+import fo from '../../assets/fo.jpg'
 import homedecor from '../../assets/homedecor.jpg'
 import toys from '../../assets/toys.jpg'
+import leather from '../../assets/leather.jpg'
 
 function ProductsSection() {
   const items = [
     {
-      image: food,
+      image: fo,
       link: 'https://google.com/',
       title: 'Food Items',
       description: 'Premium quality food items sourced from the finest regions across India.'
@@ -25,7 +26,7 @@ function ProductsSection() {
       description: 'Handcrafted items celebrating traditional craftsmanship with contemporary designs.'
     },
     {
-      image: 'https://picsum.photos/600/600?grayscale',
+      image: leather,
       link: 'https://google.com/',
       title: 'Leather Accessories',
       description: 'Premium leather goods combining quality materials with expert craftsmanship.'
@@ -38,24 +39,38 @@ function ProductsSection() {
     }
   ];
 
-  // Handler for item click
-  const handleItemClick = async (item) => {
-    const email = window.prompt('Please enter your email address:');
-    if (email && /\S+@\S+\.\S+/.test(email)) {
-      // Call your backend API to send the email
-      // Example:
-      // await fetch('/api/send-mail', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify({ email, product: item.title, link: item.link })
-      // });
-      alert(`A mail will be sent to ${email} for ${item.title}.`);
-      // Optionally, open the link after email is sent
-      // window.open(item.link, '_blank');
-    } else if (email !== null) {
-      alert('Please enter a valid email address.');
-    }
-  };
+  // Enhanced handler for item click - Multiple email options
+  // ...existing code...
+const handleItemClick = (item) => {
+  const companyEmail = 'southernbayexim123@gmail.com';
+  const subject = `Business Inquiry - ${item.title}`;
+  const body = `Dear Southern Bay Exim Team,
+
+I am interested in learning more about your ${item.title}.
+
+Product Details:
+- Product: ${item.title}
+- Description: ${item.description}
+
+Please provide me with the following information:
+- Product specifications and varieties available
+- Pricing and minimum order quantities
+- Shipping and delivery details
+- Certifications and quality standards
+- Sample availability
+
+I look forward to hearing from you soon.
+
+Best regards,
+[Your Name]
+[Your Company]
+[Your Contact Information]`;
+
+  // Always open Gmail compose window
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(companyEmail)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.open(gmailUrl, '_blank');
+};
+// ...existing code...
 
   return (
     <div style={{ height: '600px', position: 'relative' }}>
