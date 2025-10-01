@@ -20,8 +20,7 @@ function Products() {
         <div className="container">
           <h2>Our Products</h2>
           <p>
-            Southern Bay offers a diverse range of premium products sourced from trusted suppliers across the globe. 
-            Browse our categories below to learn more about our offerings.
+             Southern Bay offers a diverse range of premium products crafted in-house using the finest ingredients and expertise from around the globe.Browse our categories below to learn more about our offerings.
           </p>
           
           <div className="product-categories">
@@ -35,7 +34,7 @@ function Products() {
               {expandedProduct === 'spices' && (
                 <div className="category-content">
                   <div className="category-details">
-                    <p>We offer a rich variety of premium quality spices sourced directly from the finest growing regions. Our spices are known for their authentic flavor, aroma, and freshness.</p>
+                    <p> We offer a rich variety of premium-quality spices, carefully produced to capture the authentic flavor, aroma, and freshness of the finest growing regions.</p>
                     <ul>
                       <li>Black Pepper</li>
                       <li>Cardamom</li>
