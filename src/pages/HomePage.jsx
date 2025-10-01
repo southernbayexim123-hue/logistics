@@ -68,7 +68,7 @@ function HomePage() {
           <div className="video-overlay"></div>
         </div>
         <div className="hero-content">
-          <h1>SOUTHERN BAY<br /> EXIM</h1>
+          <h1>SOUTHERNBAY<br /> EXIM</h1>
           <div className="tagline-box">
             <p>DELIVERING QUALITY PRODUCTS AROUND THE WORLD</p>
           </div>
