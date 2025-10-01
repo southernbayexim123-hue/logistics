@@ -80,7 +80,7 @@ body {
   align-items: center;
   padding: 1rem 5%;
   position: fixed;
-  top: 0;
+  top: auto;
   left: 0;
   right: 0;
   z-index: 1000;
