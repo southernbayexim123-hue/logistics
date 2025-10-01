@@ -29,7 +29,7 @@ function App() {
             <Link to="/"><img src={logo} alt="Company Logo" className="logo" /></Link>
           </div>
           <div className="nav-links">
-            <Link to="/" onClick={(e) => handleNavClick(e, '/homepage')}>HOME</Link>
+            <Link to="/" onClick={(e) => handleNavClick(e, '/')}>HOME</Link>
             <Link to="/services" onClick={(e) => handleNavClick(e, '/services')}>SERVICES</Link>
             <Link to="/products" onClick={(e) => handleNavClick(e, '/products')}>PRODUCTS</Link>
             <Link to="/contact" onClick={(e) => handleNavClick(e, '/contact')}>ENQUIRY</Link>
