@@ -11,7 +11,7 @@ function ProductsSection() {
       image: fo,
       link: 'https://google.com/',
       title: 'Food Items',
-      description: 'Premium quality food items sourced from the finest regions across India.'
+      description: 'Premium quality food items  from the finest regions across India.'
     },
     {
       image: coir,
