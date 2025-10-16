@@ -20,7 +20,10 @@ function Products() {
         <div className="container">
           <h2>Our Products</h2>
           <p>
-             Southern Bay offers a diverse range of premium products crafted in-house using the finest ingredients and expertise from around the globe.Browse our categories below to learn more about our offerings.
+
+            Southern Bay offers a diverse range of premium products from trusted suppliers across the globe. 
+            Browse our categories below to learn more about our offerings.
+
           </p>
           
           <div className="product-categories">
